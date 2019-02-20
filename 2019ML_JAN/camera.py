@@ -2,7 +2,7 @@
 
 import  cv2
 #  starting camera
-cap=cv2.VideoCapture(0)
+cap=cv2.VideoCapture('/home/fire/myvide1.avi')
 #
 
 while cap.isOpened():
