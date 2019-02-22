@@ -28,7 +28,7 @@ while cap.isOpened():
         cv2.line(frame,(0,0),(100,100),(24,244,244),3)
         face_only=frame[y:y+h,x:x+w]
 
-    cv2.imshow('live',face_only)
+    cv2.imshow('live',frame)
     if cv2.waitKey(2) & 0xFF == ord('q'):
         break
 cv2.destroyAllWindows()
